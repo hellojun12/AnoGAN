@@ -1,0 +1,20 @@
+#Data
+data: 
+  dataroot : "/home/junshick/Workspace/Dataset/Personal_datasets/cup_GAN/train"
+  save_path : "/home/junshick/Workspace/Study/GAN/DCGAN/save_checkpoint"
+
+#Hyperparams
+
+hyperparams:
+  workers: 4
+  batch_size : 12
+  num_epochs : 5000
+  lr : 0.001
+
+#Image params
+image:
+  image_size : 64 #image size
+  nc : 3 #num channels
+  nz : 100 #size of z latent vector
+  ngf : 64 #size of feature maps in generator
+  ndf : 64 #size of feature  maps in discriminator
