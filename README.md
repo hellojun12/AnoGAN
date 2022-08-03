@@ -21,7 +21,6 @@ paper: [DCGAN](/home/junshick/Workspace/Study/GAN/DCGAN/images/nomal_cup.jpeg)
 - Trained with 67 normal cup images.
 <center>
     <img src="./images/ezgif.com-gif-maker.gif" width= 80%>
-</center>
 </br>
 
 ## Inference (Anomally Detection)
