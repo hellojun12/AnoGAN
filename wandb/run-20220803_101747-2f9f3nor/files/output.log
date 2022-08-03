@@ -1,0 +1,8 @@
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1001/1001 [00:06<00:00, 144.69it/s]
+Traceback (most recent call last):
+  File "test.py", line 126, in <module>
+    diff = real_mask - fake_mask
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!

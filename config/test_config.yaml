@@ -1,4 +1,4 @@
-dataroot : "<your path to data>"
+dataroot : "/home/junshick/Workspace/Dataset/Personal_datasets/cup_GAN/test/fault"
 image_size : 64
 batch_size : 1
 nc : 3
@@ -8,5 +8,5 @@ ndf : 64 # Size of feature maps in discriminator
 alpha : 0.1 # loss ratio of Residual Loss, Discriminator Loss
 save_real_img: './test_results/real_image'
 save_fake_img: './test_results/fake_images'
-netG_checkpoint : '<path to the checkpointG>'
-netD_checkpoint : '<path to the checkpointD'
+netG_checkpoint : 'save_checkpoint/current_best/G_epoch4901.pth'
+netD_checkpoint : 'save_checkpoint/current_best/D_epoch4901.pth'

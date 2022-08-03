@@ -1,0 +1,8 @@
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1001/1001 [00:07<00:00, 141.70it/s]
+Traceback (most recent call last):
+  File "test.py", line 128, in <module>
+    diff = torch.where(torch.abs(diff) < 0.2, diff, 0.)
+RuntimeError: expected scalar type float but found double

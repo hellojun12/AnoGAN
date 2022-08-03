@@ -117,34 +117,5 @@ for i in tqdm(range(10001)):
             f_image = np.transpose(f_image, (0, 2, 3, 1))
 
 
-real_mask = real
-real_mask = real_mask.type(torch.FloatTensor)
-
-fake_mask = fake
-fake_mask = fake_mask.type(torch.FloatTensor)
-
-diff = real_mask - fake_mask
-
-wandb.log({
-    "Generated imgs": [wandb.Image(r_image), wandb.Image(f_image), wandb.Image(diff)]
-})
-
-# visualize abnormal area (real - fake)
-# real_mask = real>0.2
-# real_mask = real_mask.type(torch.FloatTensor)
-# real_mask = vutils.make_grid(real_mask, normalize=True)
-
-# fake_mask = fake>0.2
-# fake_mask = fake_mask.type(torch.FloatTensor)
-# fake_mask = vutils.make_grid(fake_mask, normalize=True)
-
-# real_img = vutils.make_grid(real, normalize=True)
-# diff = real_mask - fake_mask
-# r, g, b = diff
-# real_img[0][r>0]=1.
-# real_img[1][g>0]=0.
-# real_img[2][b>0]=0.
-
 # show image
 print(f'Anomaly Score: {loss.item():.3f}')
-#show(real_img.detach().cpu(), title=f'Anomaly Score: {loss.item():.3f}', save_fp=os.path.join(save_fp, 'test_img/Anomaly.png'))

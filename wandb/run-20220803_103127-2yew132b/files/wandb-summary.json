@@ -1,0 +1,1 @@
+{"Epoch": 10000, "LossR": 0.003160130698233843, "_runtime": 72, "_timestamp": 1659522759, "_step": 101, "Generated imgs": {"_type": "images/separated", "width": 64, "height": 64, "format": "png", "count": 3}, "_wandb": {"runtime": 74}}

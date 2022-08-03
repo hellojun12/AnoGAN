@@ -1,0 +1,130 @@
+2022-08-03 10:30:59,081 INFO    MainThread:100013 [internal.py:wandb_internal():90] W&B internal server running at pid: 100013, started at: 2022-08-03 10:30:59.081387
+2022-08-03 10:30:59,082 DEBUG   HandlerThread:100013 [handler.py:handle_request():130] handle_request: check_version
+2022-08-03 10:30:59,083 INFO    WriterThread:100013 [datastore.py:open_for_write():77] open: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/run-2lt9rsk4.wandb
+2022-08-03 10:30:59,084 DEBUG   SenderThread:100013 [sender.py:send():234] send: header
+2022-08-03 10:30:59,084 DEBUG   SenderThread:100013 [sender.py:send_request():248] send_request: check_version
+2022-08-03 10:30:59,121 DEBUG   SenderThread:100013 [sender.py:send():234] send: run
+2022-08-03 10:30:59,365 INFO    SenderThread:100013 [dir_watcher.py:__init__():169] watching files in: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files
+2022-08-03 10:30:59,365 INFO    SenderThread:100013 [sender.py:_start_run_threads():807] run started: 2lt9rsk4 with start time 1659522658
+2022-08-03 10:30:59,365 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:30:59,366 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:30:59,366 DEBUG   HandlerThread:100013 [handler.py:handle_request():130] handle_request: run_start
+2022-08-03 10:30:59,998 DEBUG   HandlerThread:100013 [meta.py:__init__():40] meta init
+2022-08-03 10:30:59,998 DEBUG   HandlerThread:100013 [meta.py:__init__():54] meta init done
+2022-08-03 10:30:59,998 DEBUG   HandlerThread:100013 [meta.py:probe():214] probe
+2022-08-03 10:31:00,004 DEBUG   HandlerThread:100013 [meta.py:_setup_git():204] setup git
+2022-08-03 10:31:00,017 DEBUG   HandlerThread:100013 [meta.py:_setup_git():211] setup git done
+2022-08-03 10:31:00,017 DEBUG   HandlerThread:100013 [meta.py:_save_pip():58] save pip
+2022-08-03 10:31:00,018 DEBUG   HandlerThread:100013 [meta.py:_save_pip():72] save pip done
+2022-08-03 10:31:00,018 DEBUG   HandlerThread:100013 [meta.py:_save_conda():79] save conda
+2022-08-03 10:31:00,367 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_created():217] file/dir created: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:00,368 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_created():217] file/dir created: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/requirements.txt
+2022-08-03 10:31:00,368 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_created():217] file/dir created: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/conda-environment.yaml
+2022-08-03 10:31:03,368 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/conda-environment.yaml
+2022-08-03 10:31:03,429 DEBUG   HandlerThread:100013 [meta.py:_save_conda():89] save conda done
+2022-08-03 10:31:03,429 DEBUG   HandlerThread:100013 [meta.py:probe():252] probe done
+2022-08-03 10:31:03,431 DEBUG   SenderThread:100013 [sender.py:send():234] send: files
+2022-08-03 10:31:03,431 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-08-03 10:31:03,436 DEBUG   HandlerThread:100013 [handler.py:handle_request():130] handle_request: stop_status
+2022-08-03 10:31:03,436 DEBUG   SenderThread:100013 [sender.py:send_request():248] send_request: stop_status
+2022-08-03 10:31:03,728 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:03,728 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:03,730 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:04,289 INFO    Thread-11 :100013 [upload_job.py:push():137] Uploaded file /tmp/tmp_qzw9hdbwandb/10txj75l-wandb-metadata.json
+2022-08-03 10:31:04,323 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:04,323 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:04,323 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:04,368 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:04,368 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_created():217] file/dir created: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-metadata.json
+2022-08-03 10:31:04,369 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_created():217] file/dir created: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/output.log
+2022-08-03 10:31:04,991 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:04,991 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:04,991 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:05,368 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:05,659 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:05,659 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:05,659 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:06,328 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:06,328 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:06,329 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:06,369 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/output.log
+2022-08-03 10:31:06,369 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:06,997 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:06,997 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:06,997 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:07,369 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:07,663 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:07,663 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:07,663 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:08,330 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:08,330 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:08,331 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:08,369 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/output.log
+2022-08-03 10:31:08,369 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:08,999 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:08,999 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:09,000 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:09,370 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:09,664 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:09,664 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:09,665 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:10,334 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:10,334 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:10,335 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:10,370 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/output.log
+2022-08-03 10:31:10,370 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:11,001 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:11,001 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:11,002 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:11,370 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:11,672 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:11,672 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:11,673 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:12,339 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:12,339 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:12,340 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:12,370 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/output.log
+2022-08-03 10:31:12,370 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:13,010 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:13,010 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:13,011 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:13,370 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:13,684 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:13,684 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:13,684 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:14,350 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:14,350 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:14,352 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:14,371 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/output.log
+2022-08-03 10:31:14,371 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:15,016 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:15,016 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:15,017 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:15,371 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:15,688 DEBUG   SenderThread:100013 [sender.py:send():234] send: history
+2022-08-03 10:31:15,688 DEBUG   SenderThread:100013 [sender.py:send():234] send: summary
+2022-08-03 10:31:15,688 INFO    SenderThread:100013 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-08-03 10:31:16,152 WARNING MainThread:100013 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2022-08-03 10:31:16,372 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/output.log
+2022-08-03 10:31:16,372 INFO    Thread-8  :100013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:16,387 WARNING MainThread:100013 [internal.py:wandb_internal():146] Internal process interrupt: 2
+2022-08-03 10:31:16,387 ERROR   MainThread:100013 [internal.py:wandb_internal():149] Internal process interrupted.
+2022-08-03 10:31:16,688 INFO    WriterThread:100013 [datastore.py:close():281] close: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/run-2lt9rsk4.wandb
+2022-08-03 10:31:16,688 INFO    SenderThread:100013 [sender.py:finish():1070] shutting down sender
+2022-08-03 10:31:16,688 INFO    SenderThread:100013 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-08-03 10:31:16,688 INFO    HandlerThread:100013 [handler.py:finish():731] shutting down handler
+2022-08-03 10:31:17,373 INFO    SenderThread:100013 [dir_watcher.py:finish():313] scan: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files
+2022-08-03 10:31:17,373 INFO    SenderThread:100013 [dir_watcher.py:finish():327] scan save: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/requirements.txt requirements.txt
+2022-08-03 10:31:17,373 INFO    SenderThread:100013 [dir_watcher.py:finish():327] scan save: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/output.log output.log
+2022-08-03 10:31:17,373 INFO    SenderThread:100013 [dir_watcher.py:finish():327] scan save: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/config.yaml config.yaml
+2022-08-03 10:31:17,377 INFO    SenderThread:100013 [dir_watcher.py:finish():327] scan save: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json wandb-summary.json
+2022-08-03 10:31:17,377 INFO    SenderThread:100013 [dir_watcher.py:finish():327] scan save: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/conda-environment.yaml conda-environment.yaml
+2022-08-03 10:31:17,377 INFO    SenderThread:100013 [dir_watcher.py:finish():327] scan save: /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-metadata.json wandb-metadata.json
+2022-08-03 10:31:17,377 INFO    SenderThread:100013 [file_pusher.py:finish():177] shutting down file pusher
+2022-08-03 10:31:17,378 INFO    SenderThread:100013 [file_pusher.py:join():182] waiting for file pusher
+2022-08-03 10:31:18,042 INFO    Thread-12 :100013 [upload_job.py:push():137] Uploaded file /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/requirements.txt
+2022-08-03 10:31:18,071 INFO    Thread-16 :100013 [upload_job.py:push():137] Uploaded file /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/conda-environment.yaml
+2022-08-03 10:31:18,072 INFO    Thread-13 :100013 [upload_job.py:push():137] Uploaded file /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/output.log
+2022-08-03 10:31:18,078 INFO    Thread-14 :100013 [upload_job.py:push():137] Uploaded file /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/config.yaml
+2022-08-03 10:31:18,182 INFO    Thread-15 :100013 [upload_job.py:push():137] Uploaded file /home/junshick/Workspace/Study/GAN/DCGAN/wandb/run-20220803_103058-2lt9rsk4/files/wandb-summary.json
+2022-08-03 10:31:19,091 INFO    MainThread:100013 [internal.py:handle_exit():77] Internal process exited

@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-122-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.6",
+    "heartbeatAt": "2022-08-03T10:46:04.413896",
+    "startedAt": "2022-08-03T10:46:02.948510",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "test.py",
+    "codePath": "test.py",
+    "git": {
+        "remote": "https://github.com/hellojun12/AnoGAN.git",
+        "commit": "d269f1f9c6b7645d41d38b4f87cbe092d2e346a7"
+    },
+    "email": "hellojun12@naver.com",
+    "root": "/home/junshick/Workspace/Study/GAN/DCGAN",
+    "host": "junshick",
+    "username": "junshick",
+    "executable": "/home/junshick/anaconda3/bin/python"
+}
